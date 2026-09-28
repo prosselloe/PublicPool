@@ -28,31 +28,31 @@
 <table>
 <tbody>
 <tr>
-<td>    <div class="card"><div class="label">Network Hashrate</div><div class="kpi" id="networkHash">—</div>
-      <div class="note">network.networkhashps</div></div>
+<td><div class="card"><div class="label"><b>Network Hashrate</b></div><div class="kpi" id="networkHash">—</div>
+    <div class="note">network.networkhashps</div></div>
 </td>
-<td    <div class="card"><div class="label">Network Difficulty</div><div class="kpi" id="networkDifficulty">—</div>
-      <div class="note">network.difficulty</div></div>
+<td><div class="card"><div class="label"><b>Network Difficulty</b></div><div class="kpi" id="networkDifficulty">—</div>
+    <div class="note">network.difficulty</div></div>
 </td>
-<td>    <div class="card"><div class="label">Block Height</div><div class="kpi" id="blockHeight">—</div>
-      <div class="note">network.blocks</div></div>
+<td><div class="card"><div class="label"><b>Block Height</b></div><div class="kpi" id="blockHeight">—</div>
+    <div class="note">network.blocks</div></div>
 </td>
-<td>    <div class="card"><div class="label">Current Block Weight</div><div class="kpi" id="blockWeight">—</div>
-      <div class="note">network.currentblockweight · WU</div></div>
+<td><div class="card"><div class="label"><b>Current Block Weight</b></div><div class="kpi" id="blockWeight">—</div>
+    <div class="note">network.currentblockweight · WU</div></div>
 </td>
 </tr>
 <tr>
-<td>    <div class="card"><div class="label">Pool Hashrate</div><div class="kpi" id="poolHash">—</div>
-      <div class="note">pool.totalHashRate</div></div>
+<td><div class="card"><div class="label"><b>Pool Hashrate</b></div><div class="kpi" id="poolHash">—</div>
+    <div class="note">pool.totalHashRate</div></div>
 </td>
-<td>    <div class="card"><div class="label">Pool Miners</div><div class="kpi" id="poolMiners">—</div>
-      <div class="note">pool.totalMiners</div></div>
+<td><div class="card"><div class="label"><b>Pool Miners</b></div><div class="kpi" id="poolMiners">—</div>
+    <div class="note">pool.totalMiners</div></div>
 </td>
-<td>    <div class="card"><div class="label">Accepted Shares</div><div class="kpi" id="acceptedShares">—</div>
-      <div class="note">accounting.totalAcceptedShares</div></div>
+<td><div class="card"><div class="label"><b>Accepted Shares</b></div><div class="kpi" id="acceptedShares">—</div>
+    <div class="note">accounting.totalAcceptedShares</div></div>
 </td>
-<td>    <div class="card"><div class="label">Solo Work</div><div class="kpi" id="soloWork">—</div>
-      <div class="note">accounting.totalCreditedDifficulty</div></div>
+<td><div class="card"><div class="label"><b>Solo Work</b></div><div class="kpi" id="soloWork">—</div>
+    <div class="note">accounting.totalCreditedDifficulty</div></div>
 </td>
 </tr>
 </tbody>
@@ -65,15 +65,15 @@
 <tbody>
   <tr>
 <td>    <!--
-    <div class="card"><div class="label">Pool Hashrate</div><div class="kpi" id="hashrate">—</div></div>
+    <div class="card"><div class="label"><b>Pool Hashrate</b></div><div class="kpi" id="hashrate">—</div></div>
     -->
-    <div class="card"><div class="label">Best Difficulty històric</div><div class="kpi" id="difficulty">—</div></div>
+    <div class="card"><div class="label"><b>Best Difficulty històric</b></div><div class="kpi" id="difficulty">—</div></div>
  </td>
-<td><div class="card"><div class="label">Workers visibles ara</div><div class="kpi" id="visible">—</div></div>
+<td><div class="card"><div class="label"><b>Workers visibles ara</b></div><div class="kpi" id="visible">—</div></div>
 </td>
-<td><div class="card"><div class="label">Miners coneguts</div><div class="kpi" id="known">—</div></div>
+<td><div class="card"><div class="label"><b>Miners coneguts</b></div><div class="kpi" id="known">—</div></div>
 </td>
-<td><div class="card"><div class="label">Darrera actualització</div><div class="kpi" id="updated">—</div></div>
+<td><div class="card"><div class="label"><b>Darrera actualització</b></div><div class="kpi" id="updated">—</div></div>
 </td>
 </tr>
 </tbody>
