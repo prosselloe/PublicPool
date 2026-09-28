@@ -122,7 +122,7 @@
     <td>  
       <select id="historyPeriod"><option value="3600000">1 hora</option> / 
         <option value="21600000">6 hores</option> / 
-        <option value="86400000">24 hores</option> / <br>
+        <option value="86400000">24 hores</option> /  &nbsp&nbsp&nbsp
         <option value="604800000">7 dies</option> / 
         <option value="2592000000">30 dies</option></select></label>
     </td>    
