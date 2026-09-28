@@ -102,23 +102,22 @@
 
   <div class="card" style="margin-bottom:16px">
     <h2>Evolució històrica</h2>
-    <div class="toolbar">
-      
+    <div class="toolbar">    
 <table>
 <tbody>
   <tr>
-    <td><label>Element 
+    <td><label><b>Element</b> 
     </td>
     <td>  
       <select id="historyTarget"><option value="__wallet__">Cartera</option></select></label>
     </td>
-    <td><label>Magnitud 
+    <td><label><b>Magnitud</b>  
     </td>
     <td>  
       <select id="historyMetric"><option value="hashrate">Hashrate (mitjana 10 min)</option> / 
         <option value="bestDifficulty">Millor dificultat</option></select></label>
     </td>    
-    <td><label>Període 
+    <td><label><b>Període</b>  
     </td>
     <td>  
       <select id="historyPeriod"><option value="3600000">1 hora</option> / 
@@ -137,8 +136,6 @@
   </tr>
 </tbody>
 </table>
-      
-    </div>
   </div>
 
   <div class="grid" style="grid-template-columns:repeat(3,1fr)">
