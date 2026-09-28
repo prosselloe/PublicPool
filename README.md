@@ -69,11 +69,11 @@
     -->
     <div class="card"><div class="label">Best Difficulty històric</div><div class="kpi" id="difficulty">—</div></div>
  </td>
-<td>   <div class="card"><div class="label">Workers visibles ara</div><div class="kpi" id="visible">—</div></div>
+<td><div class="card"><div class="label">Workers visibles ara</div><div class="kpi" id="visible">—</div></div>
 </td>
-<td>    <div class="card"><div class="label">Miners coneguts</div><div class="kpi" id="known">—</div></div>
+<td><div class="card"><div class="label">Miners coneguts</div><div class="kpi" id="known">—</div></div>
 </td>
-<td>    <div class="card"><div class="label">Darrera actualització</div><div class="kpi" id="updated">—</div></div>
+<td><div class="card"><div class="label">Darrera actualització</div><div class="kpi" id="updated">—</div></div>
 </td>
 </tr>
 </tbody>
@@ -122,7 +122,7 @@
     <td>  
       <select id="historyPeriod"><option value="3600000">1 hora</option> / 
         <option value="21600000">6 hores</option> / 
-        <option value="86400000">24 hores</option> / 
+        <option value="86400000">24 hores</option> / <br>
         <option value="604800000">7 dies</option> / 
         <option value="2592000000">30 dies</option></select></label>
     </td>    
