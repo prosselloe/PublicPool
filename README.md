@@ -121,11 +121,11 @@
     </td>
     <td>  
       <select id="historyPeriod">
-        <option value="3600000">1_hora</option> / 
-        <option value="21600000">6_hores</option> / 
-        <option value="86400000">24_hores</option> / 
-        <option value="604800000">7_dies</option> / 
-        <option value="2592000000">30_dies</option>
+        <option value="3600000">1&nbsphora</option> / 
+        <option value="21600000">6&nbsphores</option> / 
+        <option value="86400000">24&nbsphores</option> / 
+        <option value="604800000">7&nbspdies</option> / 
+        <option value="2592000000">30&nbspdies</option>
       </select></label>
     </td>    
     <td><button id="clearHistory" type="button">🗑 Esborrar historial</button>
