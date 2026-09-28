@@ -64,7 +64,7 @@
 <table>
 <tbody>
   <tr>
-<td>    <!--
+<td><!--
     <div class="card"><div class="label"><b>Pool Hashrate</b></div><div class="kpi" id="hashrate">—</div></div>
     -->
     <div class="card"><div class="label"><b>Best Difficulty històric</b></div><div class="kpi" id="difficulty">—</div></div>
