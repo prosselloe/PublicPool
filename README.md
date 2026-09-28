@@ -115,21 +115,23 @@
     <td><label>Magnitud 
     </td>
     <td>  
-      <select id="historyMetric"><option value="hashrate">Hashrate (mitjana 10 min)</option>
-    </td>
-    <td>  
+      <select id="historyMetric"><option value="hashrate">Hashrate (mitjana 10 min)</option> / 
         <option value="bestDifficulty">Millor dificultat</option></select></label>
     </td>    
     <td><label>Període 
     </td>
     <td>  
-      <select id="historyPeriod"><option value="3600000">1 hora</option><option value="21600000">6 hores</option><option value="86400000">24 hores</option><option value="604800000">7 dies</option><option value="2592000000">30 dies</option></select></label>
+      <select id="historyPeriod"><option value="3600000">1 hora</option> / 
+        <option value="21600000">6 hores</option> / 
+        <option value="86400000">24 hores</option> / 
+        <option value="604800000">7 dies</option> / 
+        <option value="2592000000">30 dies</option></select></label>
     </td>    
     <td><button id="clearHistory" type="button">🗑 Esborrar historial</button>
     </td>    
   </tr>
   <tr>
-    <td colspan=6><div id="historyInfo" class="small">Recollint dades… · API cada 15 s, històric guardat com a màxim 1 mostra/minut durant 30 dies.</div>   
+    <td colspan=7><div id="historyInfo" class="small">Recollint dades… · API cada 15 s, històric guardat com a màxim 1 mostra/minut durant 30 dies.</div>   
     <div style="position:relative;width:100%;height:360px;margin-top:10px"><canvas id="historyChart" style="width:100%;height:100%;display:block"></canvas></div>
     </td>  
   </tr>
