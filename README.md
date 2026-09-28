@@ -103,13 +103,40 @@
   <div class="card" style="margin-bottom:16px">
     <h2>Evolució històrica</h2>
     <div class="toolbar">
-      <label>Element <select id="historyTarget"><option value="__wallet__">Cartera</option></select></label>
-      <label>Magnitud <select id="historyMetric"><option value="hashrate">Hashrate (mitjana 10 min)</option><option value="bestDifficulty">Millor dificultat</option></select></label>
-      <label>Període <select id="historyPeriod"><option value="3600000">1 hora</option><option value="21600000">6 hores</option><option value="86400000">24 hores</option><option value="604800000">7 dies</option><option value="2592000000">30 dies</option></select></label>
-      <button id="clearHistory" type="button">🗑 Esborrar historial</button>
-    </div>
-    <div id="historyInfo" class="small">Recollint dades… · API cada 15 s, històric guardat com a màxim 1 mostra/minut durant 30 dies.</div>
+      
+<table>
+<tbody>
+  <tr>
+    <td><label>Element 
+    </td>
+    <td>  
+      <select id="historyTarget"><option value="__wallet__">Cartera</option></select></label>
+    </td>
+    <td><label>Magnitud 
+    </td>
+    <td>  
+      <select id="historyMetric"><option value="hashrate">Hashrate (mitjana 10 min)</option>
+    </td>
+    <td>  
+        <option value="bestDifficulty">Millor dificultat</option></select></label>
+    </td>    
+    <td><label>Període 
+    </td>
+    <td>  
+      <select id="historyPeriod"><option value="3600000">1 hora</option><option value="21600000">6 hores</option><option value="86400000">24 hores</option><option value="604800000">7 dies</option><option value="2592000000">30 dies</option></select></label>
+    </td>    
+    <td><button id="clearHistory" type="button">🗑 Esborrar historial</button>
+    </td>    
+  </tr>
+  <tr>
+    <td colspan=6><div id="historyInfo" class="small">Recollint dades… · API cada 15 s, històric guardat com a màxim 1 mostra/minut durant 30 dies.</div>   
     <div style="position:relative;width:100%;height:360px;margin-top:10px"><canvas id="historyChart" style="width:100%;height:100%;display:block"></canvas></div>
+    </td>  
+  </tr>
+</tbody>
+</table>
+      
+    </div>
   </div>
 
   <div class="grid" style="grid-template-columns:repeat(3,1fr)">
