@@ -4,7 +4,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Public Pool Dashboard v5 — Memòria de miners</title>
 </head>
 <body>
 <div class="wrap">
