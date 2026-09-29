@@ -7,7 +7,7 @@
 </head>
 <body>
 <div class="wrap">
-  <h1><a href="https://public-pool.netlify.app">⛏️ Public Pool Dashboard</a></h1>
+  <h1>⛏️ <a href="https://public-pool.netlify.app">Public Pool Dashboard</a></h1>
   <div class="sub">Memòria local dels miners + dades actuals de Public Pool</div>
 
   <h2>Pool API / Wallet / Controls</h2>
